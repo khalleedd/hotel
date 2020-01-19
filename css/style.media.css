@@ -1,0 +1,30 @@
+@media (max-width: 992px){
+
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding-left: 15px
+}
+}
+@media (max-width: 767px){
+.span3 #changename,.span3 #cancelname,
+.span3 #changeemail,.span3 #cancelemail,
+.span3 #changeemail,.span3 #cancelphone,
+.span3 #changepassword,.span3 #cancelpassword{
+    display: inline-block;
+}
+}
+@media (max-width: 400px){
+.setting-body .setting .setting span.span1, 
+.setting-body .setting .setting span.span2, 
+.setting-body .setting .setting span.span3{
+    clear: left;
+    display: block;
+    width: 100%;
+    padding: 5px 0px 5px 5px; 
+}
+.span3 #changename,.span3 #cancelname,
+.span3 #changeemail,.span3 #cancelemail,
+.span3 #changename,.span3 #cancelphone,
+.span3 #changepassword,.span3 #cancelpassword{
+    display: inline;
+}
+}
